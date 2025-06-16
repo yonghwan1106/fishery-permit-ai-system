@@ -174,10 +174,7 @@ export default function InsightsPage() {
                 <Brain className="mr-1 h-3 w-3" />
                 AI 분석 엔진
               </Badge>
-              <Button variant="outline" size="sm">
-                <Download className="mr-2 h-4 w-4" />
-                리포트 다운로드
-              </Button>
+ 
             </div>
           </div>
         </div>
