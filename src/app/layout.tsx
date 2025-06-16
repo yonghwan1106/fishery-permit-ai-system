@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Toaster } from 'sonner'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({
         <div id="root" className="relative flex min-h-screen flex-col">
           {children}
         </div>
+        <Toaster position="top-right" richColors />
       </body>
     </html>
   )

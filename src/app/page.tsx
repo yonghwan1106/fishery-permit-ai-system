@@ -138,6 +138,11 @@ export default function HomePage() {
                   데이터 인사이트
                 </Button>
               </Link>
+              <Link href="/supabase-test">
+                <Button variant="ghost" className="text-gray-600 hover:text-ocean-600">
+                  실시간 DB
+                </Button>
+              </Link>
               <Link href="/admin">
                 <Button variant="outline">
                   관리자
@@ -198,6 +203,12 @@ export default function HomePage() {
                   <Link href="/insights" onClick={() => setIsMobileMenuOpen(false)}>
                     <Button variant="ghost" className="w-full justify-start text-gray-600 hover:text-ocean-600">
                       데이터 인사이트
+                    </Button>
+                  </Link>
+                  
+                  <Link href="/supabase-test" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Button variant="ghost" className="w-full justify-start text-gray-600 hover:text-ocean-600">
+                      실시간 DB
                     </Button>
                   </Link>
                   
