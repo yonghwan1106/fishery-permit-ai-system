@@ -423,7 +423,7 @@ export default function InsightsPage() {
                                   </div>
                                   <div className="text-center">
                                     <div className={`font-semibold ${isTop3 ? 'text-blue-600' : 'text-gray-600'}`}>
-                                      {region.avgProcessingTime}일
+                                      {region.averageProcessingTime}일
                                     </div>
                                     <div className="text-gray-500">처리시간</div>
                                   </div>

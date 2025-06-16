@@ -31,14 +31,14 @@ export const mockProcessingStats: ProcessingStats[] = [
 
 // 지역별 통계
 export const mockRegionalStats: RegionalStats[] = [
-  { region: '부산', applications: 456, approvalRate: 89.2, averageProcessingTime: 2.8, coordinates: [129.0756, 35.1796] },
-  { region: '인천', applications: 398, approvalRate: 91.5, averageProcessingTime: 3.1, coordinates: [126.7052, 37.4563] },
-  { region: '울산', applications: 267, approvalRate: 87.6, averageProcessingTime: 3.0, coordinates: [129.3114, 35.5384] },
-  { region: '목포', applications: 234, approvalRate: 88.9, averageProcessingTime: 3.2, coordinates: [126.3922, 34.8118] },
-  { region: '포항', applications: 189, approvalRate: 90.1, averageProcessingTime: 2.9, coordinates: [129.3435, 36.0190] },
-  { region: '여수', applications: 167, approvalRate: 86.8, averageProcessingTime: 3.4, coordinates: [127.6622, 34.7604] },
-  { region: '통영', applications: 145, approvalRate: 89.7, averageProcessingTime: 3.0, coordinates: [128.4236, 34.8546] },
-  { region: '제주', applications: 123, approvalRate: 92.3, averageProcessingTime: 2.7, coordinates: [126.5312, 33.4996] },
+  { region: '부산', applications: 456, approvalRate: 89.2, averageProcessingTime: 2.8, coordinates: [129.0756, 35.1796], growthRate: 12.3 },
+  { region: '인천', applications: 398, approvalRate: 91.5, averageProcessingTime: 3.1, coordinates: [126.7052, 37.4563], growthRate: 8.7 },
+  { region: '울산', applications: 267, approvalRate: 87.6, averageProcessingTime: 3.0, coordinates: [129.3114, 35.5384], growthRate: 15.2 },
+  { region: '목포', applications: 234, approvalRate: 88.9, averageProcessingTime: 3.2, coordinates: [126.3922, 34.8118], growthRate: -2.1 },
+  { region: '포항', applications: 189, approvalRate: 90.1, averageProcessingTime: 2.9, coordinates: [129.3435, 36.0190], growthRate: 6.4 },
+  { region: '여수', applications: 167, approvalRate: 86.8, averageProcessingTime: 3.4, coordinates: [127.6622, 34.7604], growthRate: 4.8 },
+  { region: '통영', applications: 145, approvalRate: 89.7, averageProcessingTime: 3.0, coordinates: [128.4236, 34.8546], growthRate: 9.1 },
+  { region: '제주', applications: 123, approvalRate: 92.3, averageProcessingTime: 2.7, coordinates: [126.5312, 33.4996], growthRate: 18.6 },
 ]
 
 // 샘플 어업허가 신청 데이터

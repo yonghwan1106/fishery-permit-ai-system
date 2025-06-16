@@ -126,6 +126,7 @@ export interface RegionalStats {
   approvalRate: number
   averageProcessingTime: number
   coordinates: [number, number]
+  growthRate: number
 }
 
 // 사용자 타입
