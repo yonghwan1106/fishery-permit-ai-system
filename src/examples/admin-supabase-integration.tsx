@@ -2,10 +2,10 @@
 
 import { getApplications } from '@/lib/applicationService'
 import { useState, useEffect } from 'react'
-import { ApplicationDB } from '@/lib/supabase'
+import { SupabaseFisheryApplication } from '@/lib/supabase'
 
 // 컴포넌트 내부에 추가할 상태
-const [realApplications, setRealApplications] = useState<ApplicationDB[]>([])
+const [realApplications, setRealApplications] = useState<SupabaseFisheryApplication[]>([])
 const [isLoading, setIsLoading] = useState(false)
 const [lastUpdated, setLastUpdated] = useState<string>('')
 
