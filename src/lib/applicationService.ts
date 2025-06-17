@@ -1,7 +1,7 @@
-import { supabase, ApplicationDB } from '@/lib/supabase'
+import { supabase, SupabaseFisheryApplication } from '@/lib/supabase'
 
 // 어업허가 신청 데이터를 Supabase에 저장하는 함수
-export async function createApplication(data: Omit<ApplicationDB, 'id' | 'created_at' | 'updated_at'>) {
+export async function createApplication(data: Omit<SupabaseFisheryApplication, 'id' | 'created_at' | 'updated_at'>) {
   try {
     const { data: result, error } = await supabase
       .from('applications')
