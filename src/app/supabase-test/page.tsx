@@ -62,6 +62,30 @@ const mockApplications = [
     fishery_type: 'offshore' as const,
     status: 'manual_review' as const,
     submitted_at: new Date().toISOString()
+  },
+  {
+    id: '3',
+    application_number: 'F2025060003',
+    applicant_name: '박선원',
+    applicant_phone: '010-5555-1234',
+    vessel_name: '황금어장호',
+    vessel_tonnage: 12.3,
+    fishing_area: '동해 연안',
+    fishery_type: 'coastal' as const,
+    status: 'approved' as const,
+    submitted_at: new Date(Date.now() - 86400000).toISOString() // 1일 전
+  },
+  {
+    id: '4',
+    application_number: 'F2025060004',
+    applicant_name: '최어부',
+    applicant_phone: '010-7777-8888',
+    vessel_name: '새벽바다호',
+    vessel_tonnage: 8.9,
+    fishing_area: '서해 연안',
+    fishery_type: 'coastal' as const,
+    status: 'pending' as const,
+    submitted_at: new Date().toISOString()
   }
 ]
 
